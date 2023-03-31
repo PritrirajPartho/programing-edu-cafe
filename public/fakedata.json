@@ -4,6 +4,8 @@
       "index": 0,
       "isActive": true,
       "author": "mr zahirul",
+      "cover_img": "../src/assets/programing/cover-1.jpg",
+      "person_img": "../src/assets/person/person-1-min.jpg",
       "blog_title": "this is programing course",
       "publish_date": "6 march 2023",
       "hashtag": [
@@ -18,6 +20,8 @@
       "index": 1,
       "isActive": true,
       "author": "mr zahirul",
+      "cover_img": "../src/assets/programing/cover-2.jpg",
+      "person_img": "../src/assets/person/person-2-min.jpg",
       "blog_title": "this is programing course",
       "publish_date": "6 march 2023",
       "hashtag": [
@@ -32,6 +36,8 @@
       "index": 2,
       "isActive": false,
       "author": "mr zahirul",
+      "cover_img": "../src/assets/programing/cover-3.jpg",
+      "person_img": "../src/assets/person/person-3-min.jpg",
       "blog_title": "this is programing course",
       "publish_date": "6 march 2023",
       "hashtag": [
@@ -46,6 +52,8 @@
       "index": 3,
       "isActive": true,
       "author": "mr zahirul",
+      "cover_img": "../src/assets/programing/cover-4.jpg",
+      "person_img": "../src/assets/person/person-4-min.jpg",
       "blog_title": "this is programing course",
       "publish_date": "6 march 2023",
       "hashtag": [
