@@ -1,0 +1,9 @@
+.spent-time p{
+    width: 350px;
+    border: 1px solid #6047EC;
+    color: #6047EC;
+    background-color:#d3c7e5;
+    font-size: x-large;
+    font-weight: 900;
+    padding: 10px 10px 10px 25px;
+}

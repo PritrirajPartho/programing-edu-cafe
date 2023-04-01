@@ -6,6 +6,8 @@ import Cart from '../Cart/Cart';
 const Cafe = () => {
     const[blogs,setBlogs ] = useState([]);
     const[cart, setCart] = useState([]);
+    const[bookmarks, setBookmarks] = useState([]);
+
     useEffect(()=>{
         fetch('../../../public/fakedata.json')
         .then(res => res.json())
@@ -16,6 +18,11 @@ const Cafe = () => {
    const newCart = [...cart, blog];
    setCart(newCart);
 }
+ // bookmark work function or .....
+const handleBookmark = (item) =>{
+    const newBookmarks = [...bookmarks, item];
+    setBookmarks(newBookmarks)
+} 
 // return part start here..........
     return (
         <div className='cafe-container'>
@@ -24,11 +31,15 @@ const Cafe = () => {
                     blogs.map(blog => <Blogs key={blog.id}
                       blog={blog}
                       handleMarkAsRead={handleMarkAsRead}
+                      handleBookmark={handleBookmark}
                     ></Blogs>)
                 }
             </div>
             <div className='cart-container'>
-                 <Cart cart={cart}></Cart>
+                 <Cart
+                  cart={cart}
+                  bookmarks={bookmarks}
+                 ></Cart>
             </div>
         </div>
     );

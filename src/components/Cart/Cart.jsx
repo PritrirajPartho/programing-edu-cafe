@@ -1,18 +1,19 @@
-import React from 'react';
+import Bookmark from "../Bookmark/Bookmark";
+import './Cart.css';
 
-const Cart = ({cart}) => {
+const Cart = ({cart, bookmarks}) => {
+    // spent time on read show....
     let totalMinCount = 0;
     for(const blog of cart){
        totalMinCount = totalMinCount + blog.read_time;
     }
     return (
         <div>
-             <div>
-                <p>Spent time on read :{totalMinCount}min</p>
-                <h1>selcom:{cart.length}</h1>
+             <div className="spent-time">
+                <p>Spent time on read : {totalMinCount}  min</p>
              </div>
              <div>
-                 
+                 <Bookmark bookmarks={bookmarks}></Bookmark>
              </div>
         </div>
     );

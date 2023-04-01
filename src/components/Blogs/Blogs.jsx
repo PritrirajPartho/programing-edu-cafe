@@ -6,6 +6,7 @@ import './Blogs.css';
 const Blogs = (props) => {
     const{id, author, cover_img, person_img, blog_title, publish_date, read_time , hashtag} = props.blog;
     const handleMarkAsRead = props.handleMarkAsRead;
+    const handleBookmark = props.handleBookmark;
     return (
         <div className='Blog'>
             <section className='cover'>
@@ -23,7 +24,7 @@ const Blogs = (props) => {
                 </div>
                 <div className='read-button'>
                     <p>{read_time}min</p>
-                    <button>
+                    <button onClick={() =>handleBookmark(props.blog)}>
                        <FontAwesomeIcon icon={faBookAtlas} />
                     </button>
                 </div>
