@@ -3,14 +3,14 @@
       "id": "64267a5837fdae94089ec123",
       "index": 0,
       "isActive": true,
-      "author": "mr zahirul",
+      "author": "Katrina  Souza",
       "cover_img": "../src/assets/programing/cover-1.jpg",
       "person_img": "../src/assets/person/person-1-min.jpg",
-      "blog_title": "this is programing course",
-      "publish_date": "6 march 2023",
+      "blog_title": "Web Development Beginner to Advanced learning with me",
+      "publish_date": "6 March 2023",
       "hashtag": [
         "#beginners",
-        "#programming"
+        "#WebDevelopment"
       ],
       "balance": "$3,573.25",
       "read_time": 6
@@ -19,14 +19,14 @@
       "id": "64267a58ceb66b7d29140a9e",
       "index": 1,
       "isActive": true,
-      "author": "mr zahirul",
+      "author": "Zahirul Wafadar",
       "cover_img": "../src/assets/programing/cover-2.jpg",
       "person_img": "../src/assets/person/person-2-min.jpg",
-      "blog_title": "this is programing course",
-      "publish_date": "6 march 2023",
+      "blog_title": "C Programing learning with Grouping",
+      "publish_date": "5 June 2022",
       "hashtag": [
         "#beginners",
-        "#programming"
+        "#C-programming"
       ],
       "balance": "$3,021.72",
       "read_time": 9
@@ -35,14 +35,14 @@
       "id": "64267a5871453d3e1a943799",
       "index": 2,
       "isActive": false,
-      "author": "mr zahirul",
+      "author": "Antonela Kaif",
       "cover_img": "../src/assets/programing/cover-5.jpg",
       "person_img": "../src/assets/person/person-3-min.jpg",
-      "blog_title": "this is programing course",
-      "publish_date": "6 march 2023",
+      "blog_title": "Learn Hacking just read my blog",
+      "publish_date": "18 January 2023",
       "hashtag": [
         "#beginners",
-        "#programming"
+        "#Hacking"
       ],
       "balance": "$1,291.60",
       "read_time": 4
@@ -51,14 +51,14 @@
       "id": "64267a58a4cb37b5bcd9708a",
       "index": 3,
       "isActive": true,
-      "author": "mr zahirul",
+      "author": "Salena Hamza",
       "cover_img": "../src/assets/programing/cover-4.jpg",
       "person_img": "../src/assets/person/person-4-min.jpg",
-      "blog_title": "this is programing course",
-      "publish_date": "6 march 2023",
+      "blog_title": "Game Develpment learn Easily",
+      "publish_date": "30 April 2022",
       "hashtag": [
         "#beginners",
-        "#programming"
+        "#GameDev"
       ],
       "balance": "$2,444.14",
       "read_time": 6

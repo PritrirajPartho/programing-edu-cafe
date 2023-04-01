@@ -1,0 +1,15 @@
+.cafe-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+/* Blogs container style */
+.Blogs-container{
+    width: 100%;
+    /* border: 2px solid salmon; */
+    margin-left: 40px;
+}
+.cart-container{
+    margin-left: 50px;
+    border: 2px solid salmon;
+}
