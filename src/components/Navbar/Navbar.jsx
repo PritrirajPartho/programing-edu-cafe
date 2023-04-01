@@ -1,5 +1,5 @@
 import React from 'react';
-import person from '../../assets/person/person-2-min.jpg';
+import person from '../../assets/person/person-4-min.jpg';
 import './Navbar.css';
 
 const Navbar = () => {
