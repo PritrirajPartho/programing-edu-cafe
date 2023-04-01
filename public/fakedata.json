@@ -6,7 +6,7 @@
       "author": "Katrina  Souza",
       "cover_img": "../src/assets/programing/cover-1.jpg",
       "person_img": "../src/assets/person/person-1-min.jpg",
-      "blog_title": "Web Development Beginner to Advanced learning with me",
+      "blog_title": "Web Development Beginner to Advanced learn with me",
       "publish_date": "6 March 2023",
       "hashtag": [
         "#beginners",
@@ -22,7 +22,7 @@
       "author": "Zahirul Wafadar",
       "cover_img": "../src/assets/programing/cover-2.jpg",
       "person_img": "../src/assets/person/person-2-min.jpg",
-      "blog_title": "C Programing learning with Grouping",
+      "blog_title": "C Programing learn with Group discussion",
       "publish_date": "5 June 2022",
       "hashtag": [
         "#beginners",
@@ -54,11 +54,11 @@
       "author": "Salena Hamza",
       "cover_img": "../src/assets/programing/cover-4.jpg",
       "person_img": "../src/assets/person/person-4-min.jpg",
-      "blog_title": "Game Develpment learn Easily",
+      "blog_title": "Game Development learn Easily with me",
       "publish_date": "30 April 2022",
       "hashtag": [
         "#beginners",
-        "#GameDev"
+        "#GameDevelopment"
       ],
       "balance": "$2,444.14",
       "read_time": 6

@@ -22,9 +22,9 @@ const Blogs = (props) => {
                      </div>
                 </div>
                 <div className='read-time'>
-                    <p>{read_time}min</p>
+                    <p>{read_time}  min</p>
                     <button onClick={() =>handleBookmark(props.blog)}>
-                        <Icon className='btn-bookmark' icon="material-symbols:bookmark-outline-rounded"></Icon>
+                        <Icon   className='btn-bookmark' icon="material-symbols:bookmark-outline-rounded"></Icon>
                     </button>
                 </div>
             </section>
