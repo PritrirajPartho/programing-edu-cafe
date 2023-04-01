@@ -13,7 +13,6 @@
     margin-left: 50px;
     /* border: 2px solid salmon; */
 }
-
 /*This container ... respnsive */
 @media only screen and (max-width: 600px) {
     .cafe-container{

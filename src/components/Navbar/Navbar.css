@@ -4,6 +4,8 @@
   justify-content: space-between;
   background-color: rgb(15, 150, 223);
   font-size: 15px;
+  position: sticky;
+  top: 0;
 }
 .navbar h1{
   margin-left: 30px;
@@ -15,7 +17,7 @@
  width: 50px;
  border-radius: 25px;
 }
-/*This container responsive */
+/*This container responsive...... */
 @media only screen and (max-width: 600px) {
   .navbar{
     height: 100px;

@@ -13,7 +13,7 @@ const Cafe = () => {
         .then(res => res.json())
         .then(data => setBlogs(data))
     },[])
- // jjjjj function
+ // handleMarkAsRead function work.....
  const handleMarkAsRead = (blog) =>{
    const newCart = [...cart, blog];
    setCart(newCart);

@@ -1,5 +1,6 @@
-import './App.css';import Answer from './components/Answer/Answer';
-;
+import React from 'react';
+import './App.css';
+import Answer from './components/Answer/Answer';
 import Cafe from './components/Cafe/Cafe';
 import Navbar from './components/Navbar/Navbar';
 
