@@ -33,6 +33,7 @@ const Answer = () => {
                  component, hook, dynamik data loadingIn most cases, React is
                  written using JSX instead of <br></br> standard JavaScript to simplify components and keep code clean.
               </p>
+              <h1>The End</h1>
         </div>
     );
 };
