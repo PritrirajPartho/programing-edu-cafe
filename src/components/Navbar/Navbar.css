@@ -15,3 +15,24 @@
  width: 50px;
  border-radius: 25px;
 }
+/*This container responsive */
+@media only screen and (max-width: 600px) {
+  .navbar{
+    height: 100px;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 150, 223);
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 10px;
+  }
+  .navbar h1{
+   margin-top: 35px;
+  }
+  .navbar img{
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}

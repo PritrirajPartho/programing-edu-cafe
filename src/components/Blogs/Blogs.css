@@ -56,3 +56,71 @@
 .hastag-span{
   margin-right: 20px;
 }
+/* This is responsive css */
+@media only screen and (max-width: 600px) {
+  .Blog{
+    margin-bottom: 30px;
+    border-bottom:  3px solid rgba(17, 17, 17, 0.1);
+    width: 100%;
+  }
+  .cover img{
+    height: 250px;
+    width: 100%;
+    margin-left: -21px;
+    margin-right: 20px;
+   }
+   /* middle part */
+   .middle-part{
+       display: flex;
+       justify-content: space-between;
+       margin-top: 20px;
+   }
+   .author-info{
+       display: flex;
+   }
+   .author-info  img{
+     height: 40px;
+     width: 40px;
+     border-radius: 20px;
+   }
+   .general-info h4{
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-size: small;
+ }
+ .general-info p{
+   font-size: smaller;
+   margin-top: 0;
+ }
+ .read-time{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 0px;
+   margin-bottom: 10px;
+   margin-left: 10px;
+ }
+ .btn-bookmark{
+  height: 25px;
+  width: 30px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: -10px;
+ }
+ /* last part */
+ .last-part{
+   margin-top: 0px;
+   margin-left: 0px;
+   margin-right: 10px;
+ }
+ .last-part h5{
+   width: 130px;
+   font-size: larger;
+   color:#6047EC ;
+   border-bottom: 2px solid #6047EC;
+ }
+ .hastag-span{
+   margin-right: 20px;
+ }
+
+}
