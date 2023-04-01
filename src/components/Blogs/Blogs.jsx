@@ -21,10 +21,10 @@ const Blogs = (props) => {
                          <p>{publish_date}</p>
                      </div>
                 </div>
-                <div className='read-button'>
+                <div className='read-time'>
                     <p>{read_time}min</p>
                     <button onClick={() =>handleBookmark(props.blog)}>
-                        <Icon  icon="material-symbols:bookmark-outline-rounded"></Icon>
+                        <Icon className='btn-bookmark' icon="material-symbols:bookmark-outline-rounded"></Icon>
                     </button>
                 </div>
             </section>

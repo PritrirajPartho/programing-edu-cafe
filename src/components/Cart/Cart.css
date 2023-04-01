@@ -1,5 +1,5 @@
 .spent-time p{
-    width: 400px;
+    width: 390px;
     border: 1px solid #6047EC;
     border-radius: 10px;
     color: #6047EC;
@@ -11,7 +11,9 @@
 }
 /*style for bookmark container */
 .bookmark-container{
-    width: 400px;
+    width: 420px;
     background-color: rgba(17, 17, 17, 0.05); 
+    border-radius: 10px;
+    padding-left: 20px;
     border: 2px solid salmon;
 }
