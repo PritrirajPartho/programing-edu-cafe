@@ -9,7 +9,7 @@ const Cafe = () => {
     const[bookmarks, setBookmarks] = useState([]);
 
     useEffect(()=>{
-        fetch('../../../public/fakedata.json')
+        fetch('fakedata.json')
         .then(res => res.json())
         .then(data => setBlogs(data))
     },[])

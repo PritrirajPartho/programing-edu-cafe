@@ -4,8 +4,8 @@
       "index": 0,
       "isActive": true,
       "author": "Katrina  Souza",
-      "cover_img": "../src/assets/programing/cover-1.jpg",
-      "person_img": "../src/assets/person/person-1-min.jpg",
+      "cover_img": "./programing/cover-1.jpg",
+      "person_img": "./person/person-1-min.jpg",
       "blog_title": "Web Development Beginner to Advanced learn with me",
       "publish_date": "6 March 2023",
       "hashtag": [
@@ -20,8 +20,8 @@
       "index": 1,
       "isActive": true,
       "author": "Zahirul Wafadar",
-      "cover_img": "../src/assets/programing/cover-2.jpg",
-      "person_img": "../src/assets/person/person-2-min.jpg",
+      "cover_img": "./programing/cover-2.jpg",
+      "person_img": "./person/person-2-min.jpg",
       "blog_title": "C-Programing learn with Group discussion",
       "publish_date": "5 June 2022",
       "hashtag": [
@@ -36,8 +36,8 @@
       "index": 2,
       "isActive": false,
       "author": "Antonela Kaif",
-      "cover_img": "../src/assets/programing/cover-5.jpg",
-      "person_img": "../src/assets/person/person-3-min.jpg",
+      "cover_img": "./programing/cover-5.jpg",
+      "person_img": "./person/person-3-min.jpg",
       "blog_title": "Learn Hacking just read my blog",
       "publish_date": "18 January 2023",
       "hashtag": [
@@ -52,8 +52,8 @@
       "index": 3,
       "isActive": true,
       "author": "Salena Hamza",
-      "cover_img": "../src/assets/programing/cover-4.jpg",
-      "person_img": "../src/assets/person/person-4-min.jpg",
+      "cover_img": "./programing/cover-4.jpg",
+      "person_img": "./person/person-4-min.jpg",
       "blog_title": "Game Development learn Easily with me",
       "publish_date": "30 April 2022",
       "hashtag": [
