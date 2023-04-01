@@ -1,6 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBookAtlas} from '@fortawesome/free-solid-svg-icons'
+import { Icon } from '@iconify/react';
 import './Blogs.css';
 
 const Blogs = (props) => {
@@ -25,7 +24,7 @@ const Blogs = (props) => {
                 <div className='read-button'>
                     <p>{read_time}min</p>
                     <button onClick={() =>handleBookmark(props.blog)}>
-                       <FontAwesomeIcon icon={faBookAtlas} />
+                        <Icon  icon="material-symbols:bookmark-outline-rounded"></Icon>
                     </button>
                 </div>
             </section>

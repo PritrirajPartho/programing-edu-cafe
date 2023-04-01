@@ -10,9 +10,10 @@ const Cart = ({cart, bookmarks}) => {
     return (
         <div>
              <div className="spent-time">
-                <p>Spent time on read : {totalMinCount}  min</p>
+                <p> Spent  time on read : {totalMinCount}  min</p>
              </div>
-             <div>
+             <div className="bookmark-container">
+                 <h2>Bookmarked Blogs:{bookmarks.length}</h2>
                  <Bookmark bookmarks={bookmarks}></Bookmark>
              </div>
         </div>
